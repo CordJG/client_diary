@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 // import styled from 'styled-components';
-import NotFound from 'src/pages/NotFound';
+import NotFound from 'pages/NotFound';
 import MainPage from './MainPage';
 
-import Loading from 'src/components/sign/Loading';
+import Loading from 'components/sign/Loading';
 
 function RoutingPages() {
     return (

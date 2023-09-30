@@ -16,10 +16,7 @@ function Uncover() {
                     </div>
                     <div className="content-subtext flex-center">
                         <span>
-                            Best free music sharing platform for you. Find healing while listening to music. There is
-                            also a playlist page that you can enjoy with other users and a video mixing page that will
-                            add vitality to your video. You just want to listen to the song? If so, please go directly
-                            to the music search page.
+                            This is My Diary Site
                         </span>
                     </div>
                 </MovingText>

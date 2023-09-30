@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
-import { infoType } from 'src/types/LoginInput';
-import { LoginPost } from 'src/types/AxiosInterface';
-import { accessToken } from 'src/recoil/Atoms';
+import { infoType } from 'types/LoginInput';
+import { LoginPost } from 'types/AxiosInterface';
+import { accessToken } from 'recoil/Atoms';
 import { useSetRecoilState } from 'recoil';
-import { ButtonStyle } from 'src/App'; // 버튼 디자인은 App 컴포넌트와 공유합니다.
+import { ButtonStyle } from 'App'; // 버튼 디자인은 App 컴포넌트와 공유합니다.
 import GoogleBtn from './GoogleBtn';
 
 

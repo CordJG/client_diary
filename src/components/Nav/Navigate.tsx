@@ -5,7 +5,7 @@ import { BiHomeAlt } from 'react-icons/bi';
 import { HiOutlineMusicNote } from 'react-icons/hi';
 import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
-import { selectIndexState, localIndexState } from 'src/recoil/Atoms';
+import { selectIndexState, localIndexState } from '@recoil/Atoms';
 
 function Navigate({ setShowSignIn }: { setShowSignIn: React.Dispatch<React.SetStateAction<boolean>> }) {
     const token = window.localStorage.getItem('access_token');

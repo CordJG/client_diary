@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import axios from 'axios';
-import { LoginPost } from '@/types/AxiosInterface';
+import { LoginPost } from 'types/AxiosInterface';
 
 export const Background = styled.div`
     position: absolute;

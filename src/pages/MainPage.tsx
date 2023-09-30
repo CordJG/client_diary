@@ -1,6 +1,6 @@
-import Uncover from 'src/components/main/Diary';
-import Info from 'src/components/main/Info';
-import Footera from 'src/components/main/Footer';
+import Uncover from 'components/main/Diary';
+import Info from 'components/main/Info';
+import Footera from 'components/main/Footer';
 import { SectionsContainer, Section } from 'react-fullpage';
 import styled from 'styled-components';
 // import PageScroller from 'react-page-scroller';

@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
-import { selectIndexState } from 'src/recoil/Atoms';
+import { selectIndexState } from '@recoil/Atoms';
 import styled from 'styled-components';
 
 function Uncover() {

@@ -3,14 +3,14 @@ import 'src/css/App.css';
 import 'src/css/reset.css';
 import { BrowserRouter } from 'react-router-dom';
 import styled from 'styled-components';
-import Navigate from 'src/components/Nav/Navigate';
-import Signin from 'src/components/sign/Signin';
-import Signup from 'src/components/sign/Signup';
-import RoutingPages from 'src/pages/Routingpages';
+import Navigate from 'components/Nav/Navigate';
+import Signin from 'components/sign/Signin';
+import Signup from 'components/sign/Signup';
+import RoutingPages from 'pages/Routingpages';
 import { RiProfileFill } from 'react-icons/ri';
 import { MdFaceRetouchingNatural, MdLogout } from 'react-icons/md';
 import { useRecoilState } from 'recoil';
-import { soundbarOpenState } from 'src/recoil/Atoms';
+import { soundbarOpenState } from 'recoil/Atoms';
 
 function App() {
     /**2023-05-05 로그인 모달오픈 여부 스테이트 : 김주비*/
